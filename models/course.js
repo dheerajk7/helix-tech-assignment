@@ -13,7 +13,6 @@ const courseSchema = new mongoose.Schema(
     duration: {
       type: String,
       required: true,
-      unique: true,
     },
     topics: [
       {

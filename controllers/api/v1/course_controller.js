@@ -6,7 +6,7 @@ module.exports.getCourses = async function (request, response) {
     return response.status(200).json({
       success: true,
       message: 'Courese Fetched Successfully',
-      body: {
+      data: {
         courses: courses,
       },
     });
@@ -37,6 +37,7 @@ module.exports.createCourse = async function (request, response) {
       message: 'Course Created Successfully',
     });
   } catch (err) {
+    console.log(err);
     return response.status(500).json({
       success: false,
       message: 'Internal Server Error',
@@ -58,7 +59,7 @@ module.exports.getCourseDetail = async function (request, response) {
       return response.status(200).json({
         success: true,
         message: 'Course Detail Fetched Successfully',
-        body: {
+        data: {
           course: course,
         },
       });

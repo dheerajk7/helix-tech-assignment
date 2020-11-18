@@ -1,0 +1,54 @@
+.course-list {
+  text-align: left;
+  list-style: none;
+  border: 0.5px solid grey;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0px;
+}
+
+.course-heading {
+  font-size: 1.6rem;
+  padding: 2% 0%;
+  text-align: center;
+  padding-left: 1%;
+}
+
+.course-list li {
+  color: navy;
+  font-size: 1.2rem;
+  padding-left: 1%;
+  text-align: center;
+  padding: 10px 15px;
+}
+
+.course-list a:hover {
+  text-decoration: underline;
+}
+
+.course-list li:nth-child(even) {
+  background-color: #d3d3d35e;
+}
+
+.course-detail-container {
+  align-self: center;
+  width: 90%;
+  max-width: 800px;
+}
+
+.detail-container {
+  text-align: left;
+  border: 1px solid grey;
+  font-size: 1.2rem;
+}
+
+.detail-group {
+  border-bottom: 2px solid grey;
+  padding: 2%;
+  color: navy;
+}
+
+.detail-heading {
+  font-size: 1.1rem;
+  color: gray;
+}

@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Courses App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React App to Manage Courses
 
-## Available Scripts
+# Preview
 
-In the project directory, you can run:
+![preview image](../assets/images/preview.gif)
 
-### `npm start`
+# Various Functionality
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Adding new Courses
+2. List all the courses
+3. Add topic to the course.
+4. List topic of the particular course.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Techstack
 
-### `npm test`
+### HTML, CSS, JS, React, NodeJS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Instructions to install
 
-### `npm run build`
+1. Clone this repository fromhttps://github.com/dheerajk7/helix-tech-assignment.git
+2. Install NPM if you have not installed yet.
+3. Go to project directory and run these commands to run API Server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   #### To install node Modules
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   #### To run project
 
-### `npm run eject`
+   ```
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. Go and check API at http://localhost:8000/api/v1.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Go to project directory and go inside client directory and run these commands to run React App
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   #### To install node Modules
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   ```
+   npm install
+   ```
 
-## Learn More
+   #### To run project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+6. Go and check React App at http://localhost:3000.
 
-### Code Splitting
+# Directory Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+`/` - all MERN app files <br>
+`/config/` - all configuration files <br>
+`/models/` - all models files <br>
+`/routes/` - all routes files <br>
+`/controllers/` - all controllers files <br>
+`/client/` - all react app files <br>
+`/client/src` - all react app code files <br>
+`/client/src/components`- all react component files <br>
+`/client/src/store`- redux store files <br>
+`/client/src/actions`- all actions files <br>
+`/client/src/reducers`- all reducers files <br>
+`/client/src/styles` - all CSS style files <br>
+`/client/src/helper` - all helpers files <br>
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---

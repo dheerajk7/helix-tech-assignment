@@ -13,7 +13,7 @@ module.exports.getTopicDetail = async function (request, response) {
     return response.status(200).json({
       success: true,
       message: 'Topic Detail Fetched Successfully',
-      body: {
+      data: {
         topic: topic,
       },
     });
