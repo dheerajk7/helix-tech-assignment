@@ -1,0 +1,35 @@
+.navbar-container {
+  height: 50px;
+  background-image: linear-gradient(to right, #e32e6f, #e72b79, #f1679d);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navbar-container .page-heading {
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.navbar-container a {
+  color: white;
+  text-decoration: none;
+}
+
+.right-navbar {
+  list-style: none;
+}
+
+.right-navbar > li {
+  display: inline;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.right-navbar > li:hover {
+  text-decoration: underline;
+}
