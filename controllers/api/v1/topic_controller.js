@@ -1,11 +1,27 @@
 const Course = require('../../../models/course');
 const Topic = require('../../../models/topic');
 
-module.exports.getTopicDetail = function (request, response) {
-  return response.status(200).json({
-    message: 'getTopicDetail',
-    params: request.params,
-  });
+module.exports.getTopicDetail = async function (request, response) {
+  try {
+    let topic = await Topic.findById(request.params.topic_id);
+    if (!topic) {
+      return response.status(422).json({
+        success: false,
+        message: 'Topic Detail not found',
+      });
+    }
+    return response.status(200).json({
+      success: true,
+      message: 'Topic Detail Fetched Successfully',
+      body: {
+        topic: topic,
+      },
+    });
+  } catch (err) {
+    return response
+      .status(500)
+      .json({ success: false, message: 'Internal Server Error' });
+  }
 };
 
 module.exports.createTopic = async function (request, response) {
