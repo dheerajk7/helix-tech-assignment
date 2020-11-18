@@ -1,0 +1,36 @@
+{
+  "name": "helix-tech-assignment",
+  "version": "1.0.0",
+  "description": "E-commerce website for selling organic vegetable and fruits",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod_start": "NODE_ENV=production nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dheerajk7/Jaivik-Jaayaka.git"
+  },
+  "keywords": [
+    "vegetable",
+    "fruit"
+  ],
+  "author": "Dheeraj Kushwah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dheerajk7/Jaivik-Jaayaka/issues"
+  },
+  "homepage": "https://github.com/dheerajk7/Jaivik-Jaayaka#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18",
+    "nodemon": "^2.0.4",
+    "redis": "^3.0.2",
+    "rotating-file-stream": "^2.1.3"
+  },
+  "devDependencies": {}
+}
